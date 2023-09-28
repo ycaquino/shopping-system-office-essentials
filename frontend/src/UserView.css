@@ -1,0 +1,216 @@
+/* User view Page css file*/
+/*
+   check background change.*/
+
+body {
+    background-color: white;
+    background-image: url("https://drive.google.com/uc?export=view&id=1Wigp9iAu6rCt7Q6OFFGKcB01zwZi4Ey_");
+    background-size: 100%;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+/*Log out button*/
+.ui.button{
+    background-color:rgba(158, 190, 184, 1) !important;;
+    margin-bottom: 5px;
+}
+
+/*Mouse over  button*/
+.ui.button:hover {
+    background-color: rgba(135, 162, 157, 1) !important;
+    text-decoration-line: underline;
+}
+
+/*Log out confirm/deny*/
+.ui.button.exit{
+    background-color: rgba(22, 26, 33, 0) !important;
+}
+
+/*Deny hover*/
+.ui.button.exit.red:hover{
+    background-color: red !important;
+}
+/*Confirm hover*/
+.ui.button.exit.green:hover{
+    background-color: green !important;
+}
+
+/*Transition dimmer color*/
+.dimmer.transition.visible{
+    background-color: rgba(22, 26, 33, 0.8) !important;
+}
+
+/*Top Menu Tabs*/
+div.attached.tabular.menu{
+    /*LIGHT*/
+    background-color: rgba(245, 244, 243, 1) !important;
+    border-color: rgba(45, 62, 78, .9) !important;;
+    /*DARK*/
+    /*background-color: rgba(45, 62, 78, .7) !important;*/
+    /*border-color: rgba(212, 154, 94) !important ;    */
+
+    border-radius: 5px !important;
+}
+/*Inside active bottom Tab*/
+div.bottom.attached.segment{
+    /*LIGHT*/
+    background-color: rgba(245, 244, 243, 1) !important;
+    /*DARK*/
+    /*background-color: rgba(45, 62, 78, .7) !important;*/
+    border-radius: 5px !important;
+}
+
+/*Text Inside Menu Tab*/
+div a{
+    font-size: 18px;
+    font-weight: bolder !important;
+    /*LIGHT*/
+    color: rgba(45, 62, 78, .9) !important;
+    /*DARK*/
+    /*color: rgba(212, 154, 94) !important;*/
+}
+
+/*Active Tab Top Menu change*/
+.active{
+    /*LIGHT*/
+    border-color:rgba(45, 62, 78, .9) !important;
+    /*DARK*/
+    /*border-color: rgba(212, 154, 94) !important;*/
+}
+
+/*Filter*/
+.ui.bottom.attached.segment.active.tab .ui.menu{
+    background-color: rgba(245, 244, 243, 1);
+    margin-bottom: 10px;
+}
+/*Text inside Filter*/
+.ui.bottom.attached.segment.active.tab .ui.menu .dropdown.link.item{
+    color: rgba(45, 62, 78, .9);
+}
+/*Dropdown Menu*/
+.ui.bottom.attached.segment.active.tab .ui.menu .dropdown.link.item .menu.transition.visible{
+    background-color: rgba(245, 244, 243, 1);
+}
+/*Text inside Drop down Menu*/
+.ui.bottom.attached.segment.active.tab .ui.menu .dropdown.link.item .menu.transition.visible .item{
+    color: rgba(45, 62, 78, .9) !important;
+}
+
+/*Header Text*/
+div.ui.header{
+    text-align: left !important;
+    /*LIGHT*/
+    color: rgba(45, 62, 78, .9) !important;
+    /*DARK*/
+    /*color: rgba(212, 154, 94) !important;*/
+}
+
+/*Individual Product Cards*/
+div.ui.card{
+    background-color: rgba(212, 154, 94, 0.7) !important;
+    border-spacing: 0;
+    box-shadow: none !important;
+}
+/*Product Name*/
+.content .header{
+    color: rgba(45, 62, 78, .9) !important;
+}
+/*Product Price*/
+.content .meta{
+    color: rgba(45, 62, 78, .9) !important;
+    font-weight: bolder !important;
+}
+/*Product Description/Category*/
+.content .description{
+    color: rgba(45, 62, 78, .9) !important;
+}
+/*Quantity Box inside Cards*/
+div input{
+    background-color: rgba(245, 244, 243, 1) !important;
+    border-color: rgba(245, 244, 243, 1) !important;
+    color: rgba(45, 62, 78, .9) !important;
+}
+
+/*Active Buttons include Buttons that will add an item to cart or Wishlist*/
+div.ui.card .extra.content .active-button{
+    background-color: rgba(158, 190, 184, 1) !important;
+    /*color: rgba(22, 26, 33, 0.8) !important;*/
+    font-weight: bold !important;
+}
+
+/*When you hover over active buttons*/
+div.ui.card .extra.content .active-button:hover{
+    background-color: rgba(135, 162, 157, 1) !important;
+    text-decoration-line: underline;
+}
+
+/*Out of stock button*/
+div.ui.card .extra.content .non-active-button{
+    /*LIGHT*/
+    color: rgba(245, 244, 243, 1) !important;
+    /*DARK*/
+    /*color: rgba(45, 62, 78, .9) !important;*/
+
+    background-color: rgba(45, 62, 78, .9) !important;
+
+}
+
+/*Out of stock hovering*/
+div.ui.card .extra.content .non-active-button:hover{
+    text-decoration-line: none;
+    cursor: default;
+}
+
+/*Delete from cart or wishlist*/
+div.ui.card .extra.content .active-button.delete{
+    background-color: rgba(224, 80, 81, 0.9) !important;
+    /*color: rgba(22, 26, 33, 0.8) !important;*/
+    font-weight: bold !important;
+}
+/*Delete hover*/
+div.ui.card .extra.content .active-button:hover {
+    background-color: rgba(167, 59, 60, 1) !important;
+    text-decoration-line: underline;
+}
+
+/*Profile Text and Div*/
+div.bottom.attached.segment .container .profile{
+    background-color: rgba(212, 154, 94, 0.7) !important;
+    border-radius: 5px !important;
+    border-color: rgba(212, 154, 94) !important ;
+    text-align: left !important;
+}
+/*Headers inside the Dashboard*/
+div.bottom.attached.segment .container .header.dash{
+    color: rgba(45, 62, 78, .9) !important ;
+}
+
+/*Headers inside the Dashboard's Cards*/
+div.bottom.attached.segment .container .header.card-header{
+    color: rgba(45, 62, 78, .9) !important;
+    font-weight: bolder;
+    font-size: medium !important;
+}
+/*Dashbord Icon colour*/
+div i{
+    color: rgba(45, 62, 78, .9) !important;
+}
+/*Dashboard paragraph colour*/
+div p{
+    color: rgba(45, 62, 78, .9) !important;
+
+}
+/*Dashboard Cards*/
+.equal.width .column .card{
+    background-color: rgba(224, 224, 226, 1) !important;
+}
+/*Dashboard Cards Headers*/
+.fluid.card .header{
+    color: rgba(45, 62, 78, .9) !important;
+}
+/*Charts VSP*/
+.recharts-layer .recharts-bar-rectangle{
+    fill: rgba(45, 62, 78, .9) !important;
+}

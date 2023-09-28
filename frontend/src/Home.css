@@ -1,0 +1,60 @@
+/* Home Page css file*/
+/*Home Page Body*/
+body {
+    background-color: white;
+    background-image: url("https://drive.google.com/uc?export=view&id=1r91OfMoRP6OGUPGBfr8Uah9Bs5i3cWFu");
+    background-size: 100%;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+}
+/*Home Page header
+Check why it won't center*/
+.home-header{
+    align-content: center !important;
+    font-size: 40px !important;
+    color: rgba(212, 154, 94) !important;
+}
+
+/*Home page sub header*/
+.home-sub{
+    color: rgba(212, 154, 94) !important;
+    font-size: 20px !important;
+    font-style: italic;
+}
+ /*Input labels in Home page*/
+ .field label{
+     text-align: left;
+     font-size: 15px !important;
+     color: rgba(45, 62, 78, .9) !important;
+}
+ /*required '*' from input in Home page */
+ label::after {
+     color: rgba(245, 244, 243, 1) !important;
+ }
+ /*Whole Input div in Home page*/
+ .form-input{
+     color: rgba(245, 244, 243, 1) !important;
+ }
+/* Register/ Log in button*/
+#form-button{
+    color: white;
+    background-color: rgba(158, 190, 184, 1);
+}
+/*Mouse over button*/
+#form-button:hover {
+    background-color: rgba(135, 162, 157, 1);
+    text-decoration-line: underline;
+}
+/*Segment from Home Page*/
+.home-segment{
+    background-color: rgba(212, 154, 94, .5) !important;
+}
+
+
+
+
+
+
+
